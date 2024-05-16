@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class RequestPostTest {
     @Test
-    void shouldReturnDataFromBody () {
+    void shouldReturnDataFromBody() {
         given()
                 .baseUri("https://postman-echo.com")
                 .body("ping")
