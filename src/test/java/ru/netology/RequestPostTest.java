@@ -17,7 +17,7 @@ public class RequestPostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("pong"))
+                .body("data", equalTo("ping"))
         ;
     }
 }
